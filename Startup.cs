@@ -46,8 +46,7 @@ namespace dotnet_vue_startup_template
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                // endpoints.MapDefaultControllerRoute();
-
+                endpoints.MapControllers();
             });
         }
     }

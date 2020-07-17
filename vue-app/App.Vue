@@ -1,19 +1,29 @@
 ﻿<template>
-    <div>
-        <h1>hello world!! 2</h1>
-    </div>
+   <div>
+      <router-view />
+   </div>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {};
-        },
-        created() {
-        },
-        methods: {}
-    };
+import { mapActions, mapState } from "vuex";
+
+export default {
+   data() {
+      return {};
+   },
+   computed: {},
+   created() {},
+   methods: {}
+};
 </script>
 
-<style scoped>
+
+<style>
+body {
+   margin: 0;
+}
+
+.app {
+   display: flex;
+}
 </style>

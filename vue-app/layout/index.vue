@@ -1,4 +1,4 @@
-﻿<template>
+<template>
     <div>
         <div v-for="x in blogs" :key="x.id">
             <header>{{x.title}}</header>
