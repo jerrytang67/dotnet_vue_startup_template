@@ -12,6 +12,7 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "dependencies": {
+    "aspnet-prerendering": "^3.0.1",
     "axios": "^0.19.2",
     "vue-router": "^3.3.4",
     "vuex": "^3.5.1"
